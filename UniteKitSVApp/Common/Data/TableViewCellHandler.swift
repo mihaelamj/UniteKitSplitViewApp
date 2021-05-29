@@ -27,7 +27,7 @@ class TableViewCellHandler {
   #endif
   
   #if os(iOS) || os(tvOS)
-  let cellClasses = [ATableViewCell.self]
+  let cellClasses = [UKTableViewCell.self]
   #endif
   #if os(OSX)
   let cellClasses = [UKView.self]

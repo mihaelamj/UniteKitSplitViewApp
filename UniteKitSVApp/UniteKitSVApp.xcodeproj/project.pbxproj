@@ -52,6 +52,7 @@
 		A9139C862662E28B0065FEF8 /* GridView in Frameworks */ = {isa = PBXBuildFile; productRef = A9139C852662E28B0065FEF8 /* GridView */; };
 		A9139C882662E2D20065FEF8 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139C872662E2D20065FEF8 /* BaseView.swift */; };
 		A9139C892662E2D20065FEF8 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139C872662E2D20065FEF8 /* BaseView.swift */; };
+		A9139C8B2662E70F0065FEF8 /* FloatingPointUtil in Frameworks */ = {isa = PBXBuildFile; productRef = A9139C8A2662E70F0065FEF8 /* FloatingPointUtil */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -106,6 +107,7 @@
 				A9139C842662E2850065FEF8 /* CollectionUtil in Frameworks */,
 				A9139C862662E28B0065FEF8 /* GridView in Frameworks */,
 				A9139C552662E10C0065FEF8 /* UniteKitTableViewHandlers in Frameworks */,
+				A9139C8B2662E70F0065FEF8 /* FloatingPointUtil in Frameworks */,
 				A9139C502662E0BE0065FEF8 /* UniteKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,6 +251,7 @@
 				A9139C542662E10C0065FEF8 /* UniteKitTableViewHandlers */,
 				A9139C832662E2850065FEF8 /* CollectionUtil */,
 				A9139C852662E28B0065FEF8 /* GridView */,
+				A9139C8A2662E70F0065FEF8 /* FloatingPointUtil */,
 			);
 			productName = UniteKitSVMobile;
 			productReference = A9139C322662DF680065FEF8 /* UniteKitSVMobile.app */;
@@ -800,6 +803,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = A9139C7A2662E26A0065FEF8 /* XCRemoteSwiftPackageReference "MMJUtils" */;
 			productName = GridView;
+		};
+		A9139C8A2662E70F0065FEF8 /* FloatingPointUtil */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9139C7A2662E26A0065FEF8 /* XCRemoteSwiftPackageReference "MMJUtils" */;
+			productName = FloatingPointUtil;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

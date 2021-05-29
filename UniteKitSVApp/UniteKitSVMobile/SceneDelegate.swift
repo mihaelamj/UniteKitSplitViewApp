@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import AllApples
+import UniteKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
   var window: UIWindow?
