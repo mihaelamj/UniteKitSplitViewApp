@@ -24,7 +24,6 @@ open class MainTableViewController: UKViewController {
   
   private lazy var handler: MyAllStuffHandler = {
     let ash = MyAllStuffHandler(itemDelegate: self)
-    debugPrint("Created handler!")
     return ash
   }()
   

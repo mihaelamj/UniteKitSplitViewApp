@@ -53,6 +53,8 @@
 		A9139C882662E2D20065FEF8 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139C872662E2D20065FEF8 /* BaseView.swift */; };
 		A9139C892662E2D20065FEF8 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139C872662E2D20065FEF8 /* BaseView.swift */; };
 		A9139C8B2662E70F0065FEF8 /* FloatingPointUtil in Frameworks */ = {isa = PBXBuildFile; productRef = A9139C8A2662E70F0065FEF8 /* FloatingPointUtil */; };
+		A9139C8D2662E8850065FEF8 /* CustomGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139C8C2662E8850065FEF8 /* CustomGridView.swift */; };
+		A9139C8E2662E8850065FEF8 /* CustomGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139C8C2662E8850065FEF8 /* CustomGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +86,7 @@
 		A9139C6D2662E1D90065FEF8 /* TableViewCellHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellHandler.swift; sourceTree = "<group>"; };
 		A9139C6E2662E1D90065FEF8 /* MyAllStuffHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAllStuffHandler.swift; sourceTree = "<group>"; };
 		A9139C872662E2D20065FEF8 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		A9139C8C2662E8850065FEF8 /* CustomGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +178,7 @@
 			children = (
 				A9139C872662E2D20065FEF8 /* BaseView.swift */,
 				A9139C572662E1340065FEF8 /* CustomDetailView.swift */,
+				A9139C8C2662E8850065FEF8 /* CustomGridView.swift */,
 				A9139C562662E1340065FEF8 /* DataItem+AViewClass.swift */,
 				A9139C582662E1340065FEF8 /* MainDetailView.swift */,
 				A9139C5A2662E1340065FEF8 /* MainDetailViewController.swift */,
@@ -336,6 +340,7 @@
 				A9139C622662E1340065FEF8 /* MainSplitViewController.swift in Sources */,
 				A9139C772662E1D90065FEF8 /* MyAllStuffHandler.swift in Sources */,
 				A9139C5E2662E1340065FEF8 /* CustomDetailView.swift in Sources */,
+				A9139C8D2662E8850065FEF8 /* CustomGridView.swift in Sources */,
 				A9139C5C2662E1340065FEF8 /* DataItem+AViewClass.swift in Sources */,
 				A9139C882662E2D20065FEF8 /* BaseView.swift in Sources */,
 				A9139C752662E1D90065FEF8 /* TableViewCellHandler.swift in Sources */,
@@ -358,6 +363,7 @@
 				A9139C632662E1340065FEF8 /* MainSplitViewController.swift in Sources */,
 				A9139C782662E1D90065FEF8 /* MyAllStuffHandler.swift in Sources */,
 				A9139C5F2662E1340065FEF8 /* CustomDetailView.swift in Sources */,
+				A9139C8E2662E8850065FEF8 /* CustomGridView.swift in Sources */,
 				A9139C5D2662E1340065FEF8 /* DataItem+AViewClass.swift in Sources */,
 				A9139C892662E2D20065FEF8 /* BaseView.swift in Sources */,
 				A9139C762662E1D90065FEF8 /* TableViewCellHandler.swift in Sources */,
