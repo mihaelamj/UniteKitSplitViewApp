@@ -74,6 +74,7 @@ open class MainDetailView: BaseView {
       // will call `layoutSubviews` on `macOS`
       needsLayout = true
       #endif
+      
     }
   }
   
@@ -82,6 +83,7 @@ open class MainDetailView: BaseView {
   
   override public func customInit() {
     super.customInit()
+    
     setupLayer()
   }
   
@@ -134,7 +136,11 @@ private extension MainDetailView {
   private func addChildSubView() {
     guard let aContentView = makeContentView(name: name) else { return }
     contentView = aContentView
-    aContentView.forcedLayer.backgroundColor = UKColor.randomColor().cgColor
+    if contentView is CustomGridView {
+      debugPrint("CustomGridView")
+    } else {
+      aContentView.forcedLayer.backgroundColor = UKColor.randomColor().cgColor
+    }
     addSubview(aContentView)
   }
   
@@ -229,6 +235,5 @@ private extension MainDetailView {
     guard let aContentView = contentView else { return }
     let resultRect = getContentLayerFrame()
     aContentView.frame = resultRect
-//    aContentView.forcedLayer.backgroundColor = AColor.systemTeal.cgColor
   }
 }

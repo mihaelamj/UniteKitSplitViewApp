@@ -16,6 +16,8 @@ import UIKit
 import Cocoa
 #endif
 
+import GridView
+
 open class MainDetailViewController: UKViewController {
   
   // MARK: -
@@ -25,6 +27,11 @@ open class MainDetailViewController: UKViewController {
     let v = MainDetailView()
     v.forcedLayer.name = "MainDetailView Layer"
     return v
+  }()
+  
+  private(set) public lazy var gridView: CenteredGridView = {
+    let gv = CenteredGridView()
+    return gv
   }()
   
   // MARK: -
@@ -43,6 +50,7 @@ open class MainDetailViewController: UKViewController {
   
   open override func loadView() {
     view = mainView
+//    view = gridView
   }
   
   open override func viewDidLoad() {

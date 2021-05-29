@@ -14,8 +14,8 @@ public extension DataItem {
     switch named {
       case "Item 2":
         return CustomDetailView.self
-      case "Item 3":
-        return CustomDetailView.self
+      case "Item 4":
+        return CustomGridView.self
       default:
         return BaseView.self
     }

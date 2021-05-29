@@ -17,7 +17,7 @@ import UIKit
 import Cocoa
 #endif
 
-open class CustomGrid: BaseView {
+open class CustomGridView: BaseView {
   
   // MARK: -
   // MARK: Properties -
@@ -27,14 +27,23 @@ open class CustomGrid: BaseView {
     return gv
   }()
   
+  override open var viewOptions: UKViewOptions {
+    return .default
+  }
+  
   // MARK: -
   // MARK: Template Overrides -
   
   override public func customInit() {
     super.customInit()
-    forcedLayer.borderWidth = 20.0
-    forcedLayer.borderColor = UKColor.systemGray.cgColor
-    forcedLayer.cornerRadius = 20.0
+    // TODO: refactor This -
+    #if os(OSX)
+//    self.layer?.delegate = self
+    // will call `layoutSubviews` on `macOS`
+//    needsLayout = true
+    #endif
+    
+    debugLayerInfo()
   }
   
 }
