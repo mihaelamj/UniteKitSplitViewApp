@@ -49,8 +49,8 @@ open class MainDetailViewController: UKViewController {
   // MARK: View Lifecycle -
   
   open override func loadView() {
-    view = mainView
-//    view = gridView
+//    view = mainView
+    view = gridView
   }
   
   open override func viewDidLoad() {
