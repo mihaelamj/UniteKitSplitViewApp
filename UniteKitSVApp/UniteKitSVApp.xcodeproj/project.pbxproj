@@ -133,11 +133,11 @@
 		A9139C1F2662DF4E0065FEF8 /* UniteKitSVMac */ = {
 			isa = PBXGroup;
 			children = (
+				A9139C462662DF830065FEF8 /* main.swift */,
 				A9139C202662DF4E0065FEF8 /* AppDelegate.swift */,
 				A9139C242662DF4F0065FEF8 /* Assets.xcassets */,
 				A9139C292662DF4F0065FEF8 /* Info.plist */,
 				A9139C2A2662DF4F0065FEF8 /* UniteKitSVMac.entitlements */,
-				A9139C462662DF830065FEF8 /* main.swift */,
 			);
 			path = UniteKitSVMac;
 			sourceTree = "<group>";
